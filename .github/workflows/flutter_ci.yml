@@ -41,11 +41,11 @@ jobs:
       - name: Install Cargo-NDK
         run: cargo install cargo-ndk
 
-      - name: Setup Android NDK
+      - name: Setup Android NDK and Accept Licenses
         run: |
-          echo "ANDROID_NDK_HOME=$ANDROID_SDK_ROOT/ndk/30.0.14904198" >> $GITHUB_ENV
-          # GitHub Runners sometimes have different NDK paths, we'll try to find it
-          # but 30.0.14904198 is what we're targeting locally.
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --install "ndk;30.0.14904198"
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/30.0.14904198" >> $GITHUB_ENV
 
       - name: Run Flutter Pub Get
         run: flutter pub get
