@@ -1,0 +1,1000 @@
+﻿[        ] file or directory 'C:\Users\tejas\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-9.0.1\android\src\debug\resources', not found
+[        ] Caching disabled for task ':package_info_plus:processDebugJavaRes' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':package_info_plus:processDebugJavaRes' as it is up-to-date.
+[        ] work action resolve out (project :package_info_plus) (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:processDebugJavaRes (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :path_provider_android:processDebugJavaRes (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :path_provider_android:processDebugJavaRes NO-SOURCE
+[        ] file or directory 'C:\Users\tejas\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.23\android\src\main\resources', not found
+[        ] file or directory 'C:\Users\tejas\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.23\android\src\debug\resources', not found
+[        ] Skipping task ':path_provider_android:processDebugJavaRes' as it has no source files and no previous output files.
+[        ] work action resolve out (project :path_provider_android) (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:processDebugJavaRes (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :permission_handler_android:processDebugJavaRes (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :permission_handler_android:processDebugJavaRes NO-SOURCE
+[        ] file or directory 'C:\Users\tejas\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-13.0.1\android\src\main\resources', not found
+[        ] file or directory 'C:\Users\tejas\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-13.0.1\android\src\debug\resources', not found
+[        ] Skipping task ':permission_handler_android:processDebugJavaRes' as it has no source files and no previous output files.
+[        ] work action resolve out (project :permission_handler_android) (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :rust_lib_vit_ap_smart_hub:processDebugJavaRes (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :rust_lib_vit_ap_smart_hub:processDebugJavaRes (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :rust_lib_vit_ap_smart_hub:processDebugJavaRes NO-SOURCE
+[        ] file or directory 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\rust_builder\android\src\main\resources', not found
+[        ] file or directory 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\rust_builder\android\src\debug\resources', not found
+[        ] Skipping task ':rust_lib_vit_ap_smart_hub:processDebugJavaRes' as it has no source files and no previous output files.
+[        ] work action resolve out (project :rust_lib_vit_ap_smart_hub) (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugJavaResource (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :app:mergeDebugJavaResource (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:mergeDebugJavaResource UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mergeDebugJavaResource' as it is up-to-date.
+[        ] Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :app:checkDebugDuplicateClasses (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:checkDebugDuplicateClasses UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeExtDexDebug (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :app:mergeExtDexDebug (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:mergeExtDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeExtDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :file_picker:bundleLibRuntimeToDirDebug (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :file_picker:bundleLibRuntimeToDirDebug (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] > Task :file_picker:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':file_picker:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :file_picker) (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] Resolve mutations for :flutter_inappwebview_android:bundleLibRuntimeToDirDebug (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :flutter_inappwebview_android:bundleLibRuntimeToDirDebug (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :file_picker) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\file_picker\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\file_picker\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] > Task :flutter_inappwebview_android:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':flutter_inappwebview_android:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_inappwebview_android:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :flutter_inappwebview_android) (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:bundleLibRuntimeToDirDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :image_picker_android:bundleLibRuntimeToDirDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :image_picker_android:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':image_picker_android:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :image_picker_android) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:bundleLibRuntimeToDirDebug (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:bundleLibRuntimeToDirDebug (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :image_picker_android) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\image_picker_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\image_picker_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :flutter_plugin_android_lifecycle) (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] Resolve mutations for :flutter_secure_storage:bundleLibRuntimeToDirDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :flutter_secure_storage:bundleLibRuntimeToDirDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :flutter_secure_storage:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':flutter_secure_storage:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_secure_storage:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :flutter_secure_storage) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :flutter_inappwebview_android) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\flutter_inappwebview_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\flutter_inappwebview_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :flutter_plugin_android_lifecycle) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\flutter_plugin_android_lifecycle\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\flutter_plugin_android_lifecycle\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :image_cropper:bundleLibRuntimeToDirDebug (Thread[#2274,included builds,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] DexingOutputSplitTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :image_cropper:bundleLibRuntimeToDirDebug (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :image_cropper:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':image_cropper:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':image_cropper:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :image_cropper) (Thread[#2274,included builds,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2274,included builds,5,main]) started.
+[        ] Resolve mutations for :integration_test:bundleLibRuntimeToDirDebug (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2274,included builds,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :flutter_secure_storage) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\flutter_secure_storage\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\flutter_secure_storage\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :integration_test:bundleLibRuntimeToDirDebug (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] > Task :integration_test:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':integration_test:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':integration_test:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :integration_test) (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :open_file_android:bundleLibRuntimeToDirDebug (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :image_cropper) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\image_cropper\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\image_cropper\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2274,included builds,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] :open_file_android:bundleLibRuntimeToDirDebug (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :open_file_android:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':open_file_android:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':open_file_android:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :open_file_android) (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :integration_test) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\integration_test\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\integration_test\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] Resolve mutations for :package_info_plus:bundleLibRuntimeToDirDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] DexingOutputSplitTransform (Thread[#2279,Execution worker Thread 5,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :package_info_plus:bundleLibRuntimeToDirDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :open_file_android) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\open_file_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\open_file_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :package_info_plus:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':package_info_plus:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':package_info_plus:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :package_info_plus) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:bundleLibRuntimeToDirDebug (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :path_provider_android:bundleLibRuntimeToDirDebug (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] > Task :path_provider_android:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':path_provider_android:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :path_provider_android) (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:bundleLibRuntimeToDirDebug (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :package_info_plus) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\package_info_plus\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\package_info_plus\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] :permission_handler_android:bundleLibRuntimeToDirDebug (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :permission_handler_android:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':permission_handler_android:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :permission_handler_android) (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :path_provider_android) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\path_provider_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\path_provider_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] Resolve mutations for :rust_lib_vit_ap_smart_hub:bundleLibRuntimeToDirDebug (Thread[#2274,included builds,5,main]) started.
+[        ] DexingOutputSplitTransform (Thread[#2282,Execution worker Thread 8,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :rust_lib_vit_ap_smart_hub:bundleLibRuntimeToDirDebug (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :rust_lib_vit_ap_smart_hub:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':rust_lib_vit_ap_smart_hub:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':rust_lib_vit_ap_smart_hub:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :rust_lib_vit_ap_smart_hub) (Thread[#2274,included builds,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2274,included builds,5,main]) started.
+[        ] Resolve mutations for :app:mergeProjectDexDebug (Thread[#2280,Execution worker Thread 6,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2274,included builds,5,main]) started.
+[        ] :app:mergeProjectDexDebug (Thread[#2280,Execution worker Thread 6,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :permission_handler_android) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\permission_handler_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\permission_handler_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :rust_lib_vit_ap_smart_hub) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\rust_lib_vit_ap_smart_hub\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\rust_lib_vit_ap_smart_hub\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :app:mergeProjectDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeProjectDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeProjectDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeLibDexDebug (Thread[#2280,Execution worker Thread 6,5,main]) started.
+[        ] :app:mergeLibDexDebug (Thread[#2280,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:mergeLibDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeLibDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:configureCMakeDebug[arm64-v8a] (Thread[#2280,Execution worker Thread 6,5,main]) started.
+[        ] :app:configureCMakeDebug[arm64-v8a] (Thread[#2275,Execution worker,5,main]) started.
+[  +60 ms] > Task :app:configureCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : Start JSON generation. Platform version: 24 min SDK version: arm64-v8a
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : JSON 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\.cxx\debug\385t6u3x\arm64-v8a\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : JSON generation completed without problems
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : Writing build model to C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\app\intermediates\cxx\debug\385t6u3x\logs\arm64-v8a\build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[arm64-v8a] (Thread[#2275,Execution worker,5,main]) started.
+[        ] :app:buildCMakeDebug[arm64-v8a] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[armeabi-v7a] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :app:configureCMakeDebug[armeabi-v7a] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : Start JSON generation. Platform version: 24 min SDK version: armeabi-v7a
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : JSON 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\.cxx\debug\385t6u3x\armeabi-v7a\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : JSON generation completed without problems
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : Writing build model to C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\app\intermediates\cxx\debug\385t6u3x\logs\armeabi-v7a\build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[armeabi-v7a] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :app:buildCMakeDebug[armeabi-v7a] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[x86_64] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :app:configureCMakeDebug[x86_64] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:configureCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : Start JSON generation. Platform version: 24 min SDK version: x86_64
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : JSON 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\.cxx\debug\385t6u3x\x86_64\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : JSON generation completed without problems
+[        ] C/C++: C:\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : Writing build model to C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\build\app\intermediates\cxx\debug\385t6u3x\logs\x86_64\build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[x86_64] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :app:buildCMakeDebug[x86_64] (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:buildCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :app:mergeDebugJniLibFolders (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :file_picker:mergeDebugJniLibFolders (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :file_picker:mergeDebugJniLibFolders (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :file_picker:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':file_picker:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :file_picker:mergeDebugNativeLibs (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :file_picker:mergeDebugNativeLibs (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :file_picker:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':file_picker:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :file_picker:copyDebugJniLibsProjectOnly (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :file_picker:copyDebugJniLibsProjectOnly (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :file_picker:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':file_picker:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':file_picker:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :file_picker) (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :flutter_inappwebview_android:mergeDebugJniLibFolders (Thread[#2274,included builds,5,main]) started.
+[        ] :flutter_inappwebview_android:mergeDebugJniLibFolders (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :flutter_inappwebview_android:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':flutter_inappwebview_android:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_inappwebview_android:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :flutter_inappwebview_android:mergeDebugNativeLibs (Thread[#2274,included builds,5,main]) started.
+[        ] :flutter_inappwebview_android:mergeDebugNativeLibs (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :flutter_inappwebview_android:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':flutter_inappwebview_android:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :flutter_inappwebview_android:copyDebugJniLibsProjectOnly (Thread[#2274,included builds,5,main]) started.
+[        ] :flutter_inappwebview_android:copyDebugJniLibsProjectOnly (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :flutter_inappwebview_android:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':flutter_inappwebview_android:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_inappwebview_android:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :flutter_inappwebview_android) (Thread[#2274,included builds,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:mergeDebugJniLibFolders (Thread[#2274,included builds,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:mergeDebugJniLibFolders (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:mergeDebugNativeLibs (Thread[#2274,included builds,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:mergeDebugNativeLibs (Thread[#2274,included builds,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:copyDebugJniLibsProjectOnly (Thread[#2274,included builds,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:copyDebugJniLibsProjectOnly (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :flutter_plugin_android_lifecycle) (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] Resolve mutations for :flutter_secure_storage:mergeDebugJniLibFolders (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :flutter_secure_storage:mergeDebugJniLibFolders (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] > Task :flutter_secure_storage:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':flutter_secure_storage:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_secure_storage:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :flutter_secure_storage:mergeDebugNativeLibs (Thread[#2285,Execution worker Thread 11,5,main]) started.
+[        ] :flutter_secure_storage:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :flutter_secure_storage:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':flutter_secure_storage:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :flutter_secure_storage:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :flutter_secure_storage:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :flutter_secure_storage:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':flutter_secure_storage:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_secure_storage:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :flutter_secure_storage) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :image_cropper:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :image_cropper:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_cropper:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':image_cropper:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':image_cropper:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :image_cropper:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :image_cropper:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_cropper:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':image_cropper:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :image_cropper:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :image_cropper:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_cropper:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':image_cropper:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':image_cropper:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :image_cropper) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :image_picker_android:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_picker_android:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':image_picker_android:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :image_picker_android:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :image_picker_android:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_picker_android:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':image_picker_android:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :image_picker_android:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :image_picker_android:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :image_picker_android:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':image_picker_android:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :image_picker_android) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :integration_test:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :integration_test:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :integration_test:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':integration_test:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':integration_test:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :integration_test:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :integration_test:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :integration_test:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':integration_test:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :integration_test:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :integration_test:copyDebugJniLibsProjectOnly (Thread[#2280,Execution worker Thread 6,5,main]) started.
+[        ] > Task :integration_test:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':integration_test:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':integration_test:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :integration_test) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :open_file_android:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :open_file_android:mergeDebugJniLibFolders (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :open_file_android:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':open_file_android:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':open_file_android:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :open_file_android:mergeDebugNativeLibs (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :open_file_android:mergeDebugNativeLibs (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :open_file_android:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':open_file_android:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :open_file_android:copyDebugJniLibsProjectOnly (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :open_file_android:copyDebugJniLibsProjectOnly (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :open_file_android:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':open_file_android:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':open_file_android:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :open_file_android) (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] Resolve mutations for :package_info_plus:mergeDebugJniLibFolders (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :package_info_plus:mergeDebugJniLibFolders (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :package_info_plus:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':package_info_plus:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':package_info_plus:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :package_info_plus:mergeDebugNativeLibs (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :package_info_plus:mergeDebugNativeLibs (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] > Task :package_info_plus:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':package_info_plus:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :package_info_plus:copyDebugJniLibsProjectOnly (Thread[#2284,Execution worker Thread 10,5,main]) started.
+[        ] :package_info_plus:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :package_info_plus:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':package_info_plus:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':package_info_plus:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :package_info_plus) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :path_provider_android:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :path_provider_android:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':path_provider_android:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :path_provider_android:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :path_provider_android:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':path_provider_android:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :path_provider_android:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :path_provider_android:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :path_provider_android:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':path_provider_android:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :path_provider_android) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :permission_handler_android:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :permission_handler_android:mergeDebugJniLibFolders (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :permission_handler_android:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':permission_handler_android:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :permission_handler_android:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :permission_handler_android:mergeDebugNativeLibs (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :permission_handler_android:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':permission_handler_android:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :permission_handler_android:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :permission_handler_android:copyDebugJniLibsProjectOnly (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] > Task :permission_handler_android:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':permission_handler_android:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':permission_handler_android:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :permission_handler_android) (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :rust_lib_vit_ap_smart_hub:cargokitCargoBuildRust_lib_vit_ap_smart_hubDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[        ] :rust_lib_vit_ap_smart_hub:cargokitCargoBuildRust_lib_vit_ap_smart_hubDebug (Thread[#2281,Execution worker Thread 7,5,main]) started.
+[  +72 ms] > Task :rust_lib_vit_ap_smart_hub:cargokitCargoBuildRust_lib_vit_ap_smart_hubDebug FAILED
+[        ] Caching disabled for task ':rust_lib_vit_ap_smart_hub:cargokitCargoBuildRust_lib_vit_ap_smart_hubDebug' because:
+[        ]   Build cache is disabled
+[        ] Task ':rust_lib_vit_ap_smart_hub:cargokitCargoBuildRust_lib_vit_ap_smart_hubDebug' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Starting process 'command 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\rust_builder\cargokit\gradle\..\run_build_tool.cmd''. Working directory: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\rust_builder\android Command: C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\rust_builder\cargokit\gradle\..\run_build_tool.cmd build-gradle
+[        ] Successfully started process 'command 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\rust_builder\cargokit\gradle\..\run_build_tool.cmd''
+[        ] ERROR: Dart SDK not found at "C:\flutter\bin\cache\dart-sdk\bin\dart".
+[        ] Please ensure FLUTTER_ROOT is set correctly.
+[ +109 ms] Build b74a89b7-0d37-4624-ab5f-c0c2632dc5d0 is closed
+[        ] [Incubating] Problems report is available at: file:///C:/Users/tejas/Downloads/VIT-AP-Smart-Hub-main%20(3)/VIT-AP-Smart-Hub-main/build/reports/problems/problems-report.html
+flutter : [        ] FAILURE: Build failed with an exception.
+At line:1 char:1
++ flutter build apk --debug --verbose > build_log_4.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([        ] FAIL...h an 
+    exception.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[   +2 ms] * Where:
+[        ] Script 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3
+)\VIT-AP-Smart-Hub-main\rust_builder\cargokit\gradle\plugin.gradle' 
+line: 68
+[        ] * What went wrong:
+[        ] Execution failed for task ':rust_lib_vit_ap_smart_hub:car
+gokitCargoBuildRust_lib_vit_ap_smart_hubDebug'.
+[        ] > Process 'command 
+'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub
+-main\rust_builder\cargokit\gradle\..\run_build_tool.cmd'' finished 
+with non-zero exit value 1
+[        ] * Try:
+[        ] > Run with --debug option to get more log output.
+[        ] > Run with --scan to get full insights.
+[        ] > Get more help at https://help.gradle.org.
+[        ] * Exception is:
+[        ] org.gradle.api.tasks.TaskExecutionException: Execution 
+failed for task ':rust_lib_vit_ap_smart_hub:cargokitCargoBuildRust_l
+ib_vit_ap_smart_hubDebug'.
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteAction
+sTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.jav
+a:130)
+[        ] 	at 
+org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteAction
+sTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteAction
+sTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskP
+athTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter
+.java:41)
+[        ] 	at org.gradle.api.internal.tasks.execution.FinalizePrope
+rtiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskEx
+ecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51
+)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipTaskWithN
+oActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTas
+kExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.CatchExceptio
+nTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunn
+er.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunn
+er.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execu
+te(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java
+:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java
+:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskE
+xecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationR
+ef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionG
+raph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionG
+raph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$Executo
+rWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$Executo
+rWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAn
+dRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecuto
+r$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at 
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown 
+Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Wor
+ker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: org.gradle.process.internal.ExecException: 
+Process 'command 'C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)
+\VIT-AP-Smart-Hub-main\rust_builder\cargokit\gradle\..\run_build_too
+l.cmd'' finished with non-zero exit value 1
+[        ] 	at org.gradle.process.internal.DefaultExecHandle$ExecRes
+ultImpl.assertNormalExitValue(DefaultExecHandle.java:442)
+[        ] 	at org.gradle.process.internal.DefaultExecAction.execute
+(DefaultExecAction.java:49)
+[        ] 	at org.gradle.process.internal.DefaultExecActionFactory.
+exec(DefaultExecActionFactory.java:216)
+[        ] 	at org.gradle.api.internal.DeprecatedProcessOperations.e
+xec(DeprecatedProcessOperations.java:74)
+[        ] 	at org.gradle.api.internal.project.DefaultProject.exec(D
+efaultProject.java:1286)
+[        ] 	at org.gradle.api.Project$exec$0.call(Unknown Source)
+[        ] 	at CargoKitBuildTask.build(C:\Users\tejas\Downloads\VIT-
+AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\rust_builder\cargokit\gr
+adle\plugin.gradle:68)
+[        ] 	at java.base/jdk.internal.reflect.DirectMethodHandleAcce
+ssor.invoke(Unknown Source)
+[        ] 	at java.base/java.lang.reflect.Method.invoke(Unknown 
+Source)
+[        ] 	at 
+org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardT
+askAction.doExecute(StandardTaskAction.java:58)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardT
+askAction.execute(StandardTaskAction.java:51)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardT
+askAction.execute(StandardTaskAction.java:29)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution
+$3.run(TaskExecution.java:244)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$1.execute(DefaultBuildOperationRunner.java:30)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$1.execute(DefaultBuildOperationRunner.java:27)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.run(DefaultBuildOperationRunner.java:48)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution
+.executeAction(TaskExecution.java:229)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution
+.executeActions(TaskExecution.java:212)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution
+.executeWithPreviousOutputFiles(TaskExecution.java:195)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution
+.execute(TaskExecution.java:162)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execu
+teInternal(ExecuteStep.java:105)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.acces
+s$000(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep$1.cal
+l(ExecuteStep.java:59)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep$1.cal
+l(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunn
+er.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunn
+er.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execu
+te(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execu
+te(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.CancelExecutionSt
+ep.execute(CancelExecutionStep.java:42)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.execu
+teWithoutTimeout(TimeoutStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.execu
+te(TimeoutStep.java:55)
+[        ] 	at org.gradle.internal.execution.steps.PreCreateOutputPa
+rentsStep.execute(PreCreateOutputParentsStep.java:50)
+[        ] 	at org.gradle.internal.execution.steps.PreCreateOutputPa
+rentsStep.execute(PreCreateOutputParentsStep.java:28)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOut
+putsStep.execute(RemovePreviousOutputsStep.java:67)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOut
+putsStep.execute(RemovePreviousOutputsStep.java:37)
+[        ] 	at org.gradle.internal.execution.steps.BroadcastChanging
+OutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+[        ] 	at org.gradle.internal.execution.steps.BroadcastChanging
+OutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+[        ] 	at org.gradle.internal.execution.steps.CaptureOutputsAft
+erExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+[        ] 	at org.gradle.internal.execution.steps.CaptureOutputsAft
+erExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChang
+esStep.execute(ResolveInputChangesStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChang
+esStep.execute(ResolveInputChangesStep.java:29)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.ex
+ecuteWithoutCache(BuildCacheStep.java:189)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.la
+mbda$execute$1(BuildCacheStep.java:75)
+[        ] 	at 
+org.gradle.internal.Either$Right.fold(Either.java:175)
+[        ] 	at org.gradle.internal.execution.caching.CachingState.fo
+ld(CachingState.java:62)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.ex
+ecute(BuildCacheStep.java:73)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.ex
+ecute(BuildCacheStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionSta
+teStep.execute(StoreExecutionStateStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionSta
+teStep.execute(StoreExecutionStateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.
+executeBecause(SkipUpToDateStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.
+lambda$execute$2(SkipUpToDateStep.java:53)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown 
+Source)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.
+execute(SkipUpToDateStep.java:53)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.
+execute(SkipUpToDateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapsh
+ottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.
+java:37)
+[   +1 ms] 	at org.gradle.internal.execution.steps.legacy.MarkSnapsh
+ottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.
+java:27)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementa
+lCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep
+.java:49)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementa
+lCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep
+.java:27)
+[        ] 	at org.gradle.internal.execution.steps.AbstractResolveCa
+chingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+[        ] 	at org.gradle.internal.execution.steps.AbstractResolveCa
+chingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesSte
+p.execute(ResolveChangesStep.java:65)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesSte
+p.execute(ResolveChangesStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.exec
+ute(ValidateStep.java:107)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.exec
+ute(ValidateStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureSt
+ateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionSt
+ep.java:64)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureSt
+ateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionSt
+ep.java:43)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmpty
+WorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:1
+25)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmpty
+WorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmpty
+WorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapsh
+ottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.ja
+va:38)
+[        ] 	at org.gradle.internal.execution.steps.LoadPreviousExecu
+tionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.LoadPreviousExecu
+tionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutput
+sStep.execute(HandleStaleOutputsStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutput
+sStep.execute(HandleStaleOutputsStep.java:41)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWork
+spaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution
+$4.withWorkspace(TaskExecution.java:289)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWork
+spaceStep.execute(AssignMutableWorkspaceStep.java:31)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWork
+spaceStep.execute(AssignMutableWorkspaceStep.java:22)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineSte
+p.execute(ChoosePipelineStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineSte
+p.execute(ChoosePipelineStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildO
+perationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringS
+tep.java:67)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown 
+Source)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildO
+perationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:
+67)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildO
+perationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:
+39)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep
+.execute(IdentityCacheStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep
+.execute(IdentityCacheStep.java:34)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.exec
+ute(IdentifyStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.exec
+ute(IdentifyStep.java:35)
+[        ] 	at org.gradle.internal.execution.impl.DefaultExecutionEn
+gine$1.execute(DefaultExecutionEngine.java:64)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteAction
+sTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteAction
+sTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskP
+athTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter
+.java:41)
+[        ] 	at org.gradle.api.internal.tasks.execution.FinalizePrope
+rtiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskEx
+ecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51
+)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipTaskWithN
+oActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTas
+kExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.CatchExceptio
+nTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunn
+er.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunn
+er.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.execute(DefaultBuildOperationRunner.java:60)
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 262 actionable tasks: 12 executed, 250 up-to-date
+[        ] Watched directory hierarchies: [C:\flutter\packages\flutter_tools\gradle, C:\Users\tejas\Downloads\VIT-AP-Smart-Hub-main (3)\VIT-AP-Smart-Hub-main\android]
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationR
+unner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTa
+skExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execu
+te(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java
+:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java
+:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskE
+xecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationR
+ef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionG
+raph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGr
+aph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionG
+raph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$Executo
+rWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$Executo
+rWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAn
+dRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecuto
+r$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at 
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown 
+Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Wor
+ker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] BUILD FAILED in 6s
+[  +62 ms] Running Gradle task 'assembleDebug'... (completed in 7.0s)
+[   +1 ms] "flutter apk" took 8,568ms.
+[  +48 ms] Gradle task assembleDebug failed with exit code 1
+[        ] 
+           #0      throwToolExit 
+(package:flutter_tools/src/base/common.dart:34:3)
+           #1      AndroidGradleBuilder.buildGradleApp 
+(package:flutter_tools/src/android/gradle.dart:592:7)
+           <asynchronous suspension>
+           #2      AndroidGradleBuilder.buildApk 
+(package:flutter_tools/src/android/gradle.dart:234:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand 
+(package:flutter_tools/src/commands/build_apk.dart:131:5)
+           <asynchronous suspension>
+           #4      FlutterCommand.run.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command.dart:1590:27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand 
+(package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      FlutterCommandRunner.runCommand.<anonymous 
+closure> 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:496:9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #9      FlutterCommandRunner.runCommand 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:431:5)
+           <asynchronous suspension>
+           #10     FlutterCommandRunner.run.<anonymous closure> (pac
+kage:flutter_tools/src/runner/flutter_command_runner.dart:307:33)
+           <asynchronous suspension>
+           #11     run.<anonymous closure>.<anonymous closure> 
+(package:flutter_tools/runner.dart:104:11)
+           <asynchronous suspension>
+           #12     AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #13     main 
+(package:flutter_tools/executable.dart:103:3)
+           <asynchronous suspension>
+
+
+[        ] Running 1 shutdown hook
+[   +1 ms] Shutdown hooks complete
+[        ] exiting with code 1
