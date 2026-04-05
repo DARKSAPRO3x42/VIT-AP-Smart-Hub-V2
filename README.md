@@ -47,7 +47,7 @@ To build and run this project locally, you must have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/DARKSAPRO3x42/VIT-AP-Smart-Hub.git
+    git clone https://github.com/DARKSAPRO3x42/VIT-AP-Smart-Hub-V2.git
     cd VIT-AP-Smart-Hub
     ```
 

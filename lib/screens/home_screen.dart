@@ -156,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> _checkForUpdates() async {
     final updateService = UpdateService(
       configUrl:
-          'https://raw.githubusercontent.com/DARKSAPRO3x42/VIT-AP-Smart-Hub/main/update_config.json',
+          'https://raw.githubusercontent.com/DARKSAPRO3x42/VIT-AP-Smart-Hub-V2/main/update_config.json',
     );
     if (mounted) {
       await updateService.checkForUpdates(context);
