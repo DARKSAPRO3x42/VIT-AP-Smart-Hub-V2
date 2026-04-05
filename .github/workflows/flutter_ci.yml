@@ -46,15 +46,13 @@ jobs:
           yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
           yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --install "ndk;30.0.14904198"
           echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/30.0.14904198" >> $GITHUB_ENV
+          echo "NDK_HOME=$ANDROID_HOME/ndk/30.0.14904198" >> $GITHUB_ENV
 
       - name: Run Flutter Pub Get
         run: flutter pub get
 
       - name: Build Release APK
         run: flutter build apk --release --target-platform android-arm,android-arm64,android-x64
-        env:
-          # Point cargokit to the right NDK if needed
-          NDK_HOME: ${{ env.ANDROID_NDK_HOME }}
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
