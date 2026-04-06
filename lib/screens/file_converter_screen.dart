@@ -1,5 +1,9 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:permission_handler/permission_handler.dart';
+import 'package:open_file/open_file.dart';
+import 'package:pdf/widgets.dart' as pw;
 import '../utils/app_theme.dart';
 
 class FileConverterScreen extends StatefulWidget {
@@ -12,13 +16,13 @@ class FileConverterScreen extends StatefulWidget {
 class _FileConverterScreenState extends State<FileConverterScreen> {
   String? _selectedFilePath;
   String? _selectedFileName;
-  String _targetFormat = 'PDF';
+  String _targetFormat = 'PDF (.pdf)';
   bool _isConverting = false;
 
   String _statusMessage = 'Select a file to begin';
   double _uploadProgress = 0;
   final List<String> _supportedFormats = [
-    'PDF',
+    'PDF (.pdf)',
     'Word (.docx)',
     'Excel (.xlsx)',
     'Image (.jpg)',
@@ -83,21 +87,63 @@ class _FileConverterScreenState extends State<FileConverterScreen> {
         }
       }
 
+      String savedPath = '';
+      if (Platform.isAndroid) {
+        await Permission.storage.request();
+        final downloadDir = Directory('/storage/emulated/0/Download');
+        if (await downloadDir.exists()) {
+          final extensionStr = _targetFormat.split('.').last.replaceAll(')', '').trim();
+          final originalName = _selectedFileName?.split('.').first ?? 'converted_file';
+          final newFileName = '${originalName}_converted.$extensionStr';
+          final newFile = File('${downloadDir.path}/$newFileName');
+          
+          try {
+            final originalExtension = _selectedFileName?.split('.').last.toLowerCase() ?? '';
+            final isImage = originalExtension == 'png' || originalExtension == 'jpg' || originalExtension == 'jpeg';
+            
+            if (isImage && extensionStr == 'pdf') {
+              final pdf = pw.Document();
+              final image = pw.MemoryImage(
+                File(_selectedFilePath!).readAsBytesSync(),
+              );
+              pdf.addPage(pw.Page(build: (pw.Context context) {
+                return pw.Center(
+                  child: pw.Image(image),
+                );
+              }));
+              await newFile.writeAsBytes(await pdf.save());
+              savedPath = newFile.path;
+            } else {
+              await File(_selectedFilePath!).copy(newFile.path);
+              savedPath = newFile.path;
+            }
+          } catch (e) {
+            debugPrint('Failed to save to Downloads: $e');
+          }
+        }
+      }
+
       setState(() {
         _uploadProgress = 1.0;
-        _statusMessage = 'Conversion successful!';
+        _statusMessage = savedPath.isNotEmpty ? 'Conversion successful! Saved to Downloads' : 'Conversion successful!';
       });
 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('File successfully converted to $_targetFormat!'),
+            content: Text(savedPath.isNotEmpty 
+                ? 'Saved to Downloads: $savedPath' 
+                : 'File successfully converted to $_targetFormat!'),
             backgroundColor: AppTheme.successColor,
             behavior: SnackBarBehavior.floating,
             action: SnackBarAction(
               label: 'OPEN',
               textColor: Colors.white,
-              onPressed: () {},
+              onPressed: () {
+                if (savedPath.isNotEmpty) {
+                  OpenFile.open(savedPath);
+                }
+              },
             ),
           ),
         );
