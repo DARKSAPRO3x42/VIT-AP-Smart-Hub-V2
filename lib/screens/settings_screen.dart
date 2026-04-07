@@ -5,7 +5,7 @@ import '../providers/auth_provider.dart';
 import '../providers/vtop_data_provider.dart';
 import '../utils/app_theme.dart';
 import 'login_screen.dart';
-
+import '../services/update_service.dart';
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
 
@@ -339,6 +339,58 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                 ],
                               );
                             },
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+
+                  // About & Updates
+                  Card(
+                    color: Theme.of(context).cardColor,
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          Row(
+                            children: [
+                              const Icon(
+                                Icons.info_outline,
+                                color: AppTheme.primaryColor,
+                              ),
+                              const SizedBox(width: 12),
+                              Text(
+                                'About & Updates',
+                                style: TextStyle(
+                                  color: Theme.of(context).textTheme.titleLarge?.color,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 16),
+                          ElevatedButton.icon(
+                            onPressed: () async {
+                              final updateService = UpdateService(
+                                configUrl: 'https://raw.githubusercontent.com/DARKSAPRO3x42/VIT-AP-Smart-Hub-V2/main/update_config.json',
+                              );
+                              if (context.mounted) {
+                                await updateService.checkForUpdates(context, manualCheck: true);
+                              }
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: AppTheme.primaryColor,
+                              foregroundColor: Colors.white,
+                            ),
+                            icon: const Icon(Icons.system_update),
+                            label: const Text('Check for Updates'),
                           ),
                         ],
                       ),

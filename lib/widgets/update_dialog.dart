@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 class UpdateDialog extends StatelessWidget {
   final bool isForceUpdate;
+  final String? version;
   final VoidCallback onUpdate;
   final VoidCallback? onLater;
 
   const UpdateDialog({
     super.key,
     required this.isForceUpdate,
+    this.version,
     required this.onUpdate,
     this.onLater,
   });
@@ -20,8 +22,8 @@ class UpdateDialog extends StatelessWidget {
         title: Text(isForceUpdate ? 'Update Required' : 'Update Available'),
         content: Text(
           isForceUpdate
-              ? 'A new required version of the app is available. Please update to continue using the app.'
-              : 'A new version of the app is available. Would you like to update now?',
+              ? 'A new required version of the app${version != null ? ' ($version)' : ''} is available. Please update to continue using the app.'
+              : 'A new version of the app${version != null ? ' ($version)' : ''} is available. Would you like to update now?',
         ),
         actions: [
           if (!isForceUpdate)
