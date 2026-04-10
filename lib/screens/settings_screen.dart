@@ -6,6 +6,7 @@ import '../providers/vtop_data_provider.dart';
 import '../utils/app_theme.dart';
 import 'login_screen.dart';
 import '../services/update_service.dart';
+
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
 
@@ -368,7 +369,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                               Text(
                                 'About & Updates',
                                 style: TextStyle(
-                                  color: Theme.of(context).textTheme.titleLarge?.color,
+                                  color: Theme.of(
+                                    context,
+                                  ).textTheme.titleLarge?.color,
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -379,10 +382,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           ElevatedButton.icon(
                             onPressed: () async {
                               final updateService = UpdateService(
-                                configUrl: 'https://raw.githubusercontent.com/DARKSAPRO3x42/VIT-AP-Smart-Hub-V2/main/update_config.json',
+                                configUrl:
+                                    'https://raw.githubusercontent.com/DARKSAPRO3x42/VIT-AP-Smart-Hub-V2/main/update_config.json',
                               );
                               if (context.mounted) {
-                                await updateService.checkForUpdates(context, manualCheck: true);
+                                await updateService.checkForUpdates(
+                                  context,
+                                  manualCheck: true,
+                                );
                               }
                             },
                             style: ElevatedButton.styleFrom(

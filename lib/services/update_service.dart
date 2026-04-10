@@ -18,7 +18,10 @@ class UpdateService {
 
   UpdateService({required this.configUrl}) : _dio = Dio();
 
-  Future<void> checkForUpdates(BuildContext context, {bool manualCheck = false}) async {
+  Future<void> checkForUpdates(
+    BuildContext context, {
+    bool manualCheck = false,
+  }) async {
     try {
       final response = await _dio.get(configUrl);
 
@@ -33,7 +36,9 @@ class UpdateService {
         debugPrint('UpdateType is OTA. Shorebird will handle it.');
         if (manualCheck && context.mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('App is automatically updated in the background.')),
+            const SnackBar(
+              content: Text('App is automatically updated in the background.'),
+            ),
           );
         }
         return;
@@ -75,7 +80,9 @@ class UpdateService {
       debugPrint('Update check failed: $e');
       if (manualCheck && context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Failed to check for updates. Please try again.')),
+          const SnackBar(
+            content: Text('Failed to check for updates. Please try again.'),
+          ),
         );
       }
     }

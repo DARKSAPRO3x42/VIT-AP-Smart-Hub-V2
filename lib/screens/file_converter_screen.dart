@@ -92,25 +92,36 @@ class _FileConverterScreenState extends State<FileConverterScreen> {
         await Permission.storage.request();
         final downloadDir = Directory('/storage/emulated/0/Download');
         if (await downloadDir.exists()) {
-          final extensionStr = _targetFormat.split('.').last.replaceAll(')', '').trim();
-          final originalName = _selectedFileName?.split('.').first ?? 'converted_file';
+          final extensionStr = _targetFormat
+              .split('.')
+              .last
+              .replaceAll(')', '')
+              .trim();
+          final originalName =
+              _selectedFileName?.split('.').first ?? 'converted_file';
           final newFileName = '${originalName}_converted.$extensionStr';
           final newFile = File('${downloadDir.path}/$newFileName');
-          
+
           try {
-            final originalExtension = _selectedFileName?.split('.').last.toLowerCase() ?? '';
-            final isImage = originalExtension == 'png' || originalExtension == 'jpg' || originalExtension == 'jpeg';
-            
+            final originalExtension =
+                _selectedFileName?.split('.').last.toLowerCase() ?? '';
+            final isImage =
+                originalExtension == 'png' ||
+                originalExtension == 'jpg' ||
+                originalExtension == 'jpeg';
+
             if (isImage && extensionStr == 'pdf') {
               final pdf = pw.Document();
               final image = pw.MemoryImage(
                 File(_selectedFilePath!).readAsBytesSync(),
               );
-              pdf.addPage(pw.Page(build: (pw.Context context) {
-                return pw.Center(
-                  child: pw.Image(image),
-                );
-              }));
+              pdf.addPage(
+                pw.Page(
+                  build: (pw.Context context) {
+                    return pw.Center(child: pw.Image(image));
+                  },
+                ),
+              );
               await newFile.writeAsBytes(await pdf.save());
               savedPath = newFile.path;
             } else {
@@ -125,15 +136,19 @@ class _FileConverterScreenState extends State<FileConverterScreen> {
 
       setState(() {
         _uploadProgress = 1.0;
-        _statusMessage = savedPath.isNotEmpty ? 'Conversion successful! Saved to Downloads' : 'Conversion successful!';
+        _statusMessage = savedPath.isNotEmpty
+            ? 'Conversion successful! Saved to Downloads'
+            : 'Conversion successful!';
       });
 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(savedPath.isNotEmpty 
-                ? 'Saved to Downloads: $savedPath' 
-                : 'File successfully converted to $_targetFormat!'),
+            content: Text(
+              savedPath.isNotEmpty
+                  ? 'Saved to Downloads: $savedPath'
+                  : 'File successfully converted to $_targetFormat!',
+            ),
             backgroundColor: AppTheme.successColor,
             behavior: SnackBarBehavior.floating,
             action: SnackBarAction(

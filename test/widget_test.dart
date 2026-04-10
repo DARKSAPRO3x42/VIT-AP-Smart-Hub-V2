@@ -17,7 +17,7 @@ class MockAuthProvider extends AuthProvider {
 void main() {
   testWidgets('App smoke test', (WidgetTester tester) async {
     final mockAuth = MockAuthProvider();
-    
+
     await tester.pumpWidget(
       MultiProvider(
         providers: [
